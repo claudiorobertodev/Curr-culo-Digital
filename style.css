@@ -1,0 +1,145 @@
+/* Resetando algumas margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f8f9fa;  /* Cor de fundo clara */
+    font-family: 'Arial', sans-serif;  /* Fonte simples e legível */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 50px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #343a40;  /* Borda para a foto */
+  }
+  
+  header h1 {
+    color: #343a40;  /* Cor do nome */
+    font-size: 36px;
+    margin-top: 15px;
+  }
+  
+  header p {
+    color: #6c757d;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  h3.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #495057;
+    border-bottom: 2px solid #495057;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  ul.list-unstyled {
+    list-style-type: none;
+  }
+  
+  ul.list-unstyled li {
+    font-size: 16px;
+    color: #495057;
+    margin-bottom: 10px;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill p {
+    font-size: 16px;
+    color: #495057;
+    font-weight: bold;
+  }
+  
+  .progress {
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+  
+  .progress-bar {
+    border-radius: 5px;
+  }
+  
+  .skill .progress-bar.bg-success {
+    background-color: #28a745;
+  }
+  
+  .skill .progress-bar.bg-info {
+    background-color: #17a2b8;
+  }
+  
+  .skill .progress-bar.bg-warning {
+    background-color: #ffc107;
+  }
+  
+  .contact-item i {
+    margin-right: 10px;
+  }
+  
+  .contact-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #e9ecef;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 30px;
+    }
+  
+    header p {
+      font-size: 16px;
+    }
+  
+    .col-lg-4, .col-lg-8 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .progress-bar {
+      height: 12px;
+    }
+  }
+  
